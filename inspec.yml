@@ -8,6 +8,7 @@ summary: An InSpec Compliance Profile
 version: 0.1.0
 supports:
   - os-family: redhat
+  - os-family: debian
 depends:
 - name: utils
   git: https://github.com/Alfresco/chef-alfresco-inspec-utils
